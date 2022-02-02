@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './useInput';
+import App from './useTabs';
 
 ReactDOM.render(
   <React.StrictMode>
