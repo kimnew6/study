@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './useClick';
+import App from './useHover';
 
 ReactDOM.render(
   <React.StrictMode>
