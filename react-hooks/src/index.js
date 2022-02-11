@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './useFadeIn';
+import App from './useNetwork';
 
 ReactDOM.render(
   <React.StrictMode>
