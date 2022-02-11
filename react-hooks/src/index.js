@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './useBeforeLeave';
+import App from './useFadeIn';
 
 ReactDOM.render(
   <React.StrictMode>
