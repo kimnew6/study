@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './useScroll';
+import App from './useFullscreen';
 
 ReactDOM.render(
   <React.StrictMode>
