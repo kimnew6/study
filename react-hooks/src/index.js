@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './useNetwork';
+import App from './useScroll';
 
 ReactDOM.render(
   <React.StrictMode>
