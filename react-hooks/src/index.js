@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './useFullscreen';
+import App from './useNotification';
 
 ReactDOM.render(
   <React.StrictMode>
