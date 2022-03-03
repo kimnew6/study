@@ -5,6 +5,7 @@ import Nav from './components/Nav/Nav';
 import UseAxios from './pages/useAxios';
 import UseBeforeLeave from './pages/useBeforeLeave';
 import UseClick from './pages/useClick';
+import UseConfirm from './pages/useConfirm';
 import UseEffect from './pages/useEffect';
 import UseFadeIn from './pages/useFadeIn';
 import UseFullscreen from './pages/useFullscreen';
@@ -28,6 +29,7 @@ const Routers = () => {
         <Route path="/usebeforeLeave" element={<UseBeforeLeave />} />
         <Route path="/useclick" element={<UseClick />} />
         <Route path="/useeffect" element={<UseEffect />} />
+        <Route path="/useconfirm" element={<UseConfirm />} />
         <Route path="/usefadein" element={<UseFadeIn />} />
         <Route path="/usefullscreen" element={<UseFullscreen />} />
         <Route path="/usehover" element={<UseHover />} />
