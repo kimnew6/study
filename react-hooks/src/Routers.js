@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import Nav from './components/Nav/Nav';
 import UseAxios from './pages/useAxios';
 import UseBeforeLeave from './pages/useBeforeLeave';
 import UseClick from './pages/useClick';
@@ -20,6 +21,7 @@ import UseTitle from './pages/useTitle';
 const Routers = () => {
   return (
     <BrowserRouter>
+      <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/useaxios" element={<UseAxios />} />
