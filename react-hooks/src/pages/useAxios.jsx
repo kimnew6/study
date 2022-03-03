@@ -47,4 +47,4 @@ const App = () => {
   );
 };
 
-export default useAxios;
+export default App;
