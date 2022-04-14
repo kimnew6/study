@@ -3,14 +3,14 @@ import { connect } from 'react-redux';
 import { actionCreators } from '../store';
 import ToDo from '../components/ToDo';
 
-function Home({ toDos, addTODo }) {
+function Home({ toDos, addToDo }) {
   const [text, setText] = useState('');
   function onChange(e) {
     setText(e.target.value);
   }
   function onSubmit(e) {
     e.preventDefault();
-    addTODo(text);
+    addToDo(text);
     setText('');
   }
   return (
@@ -35,7 +35,7 @@ function mapStateToProps(state) {
 }
 
 function mapDispatchToProps(dispatch) {
-  return { addTODo: text => dispatch(actionCreators.addToDo(text)) };
+  return { addToDo: text => dispatch(actionCreators.addToDo(text)) };
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home);
