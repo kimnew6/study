@@ -1,7 +1,13 @@
 import React from 'react';
+import Hello from './Hello';
 
 const Home = () => {
-  return <h1>LuluZoe's React Hooks</h1>;
+  return (
+    <>
+      <Hello name="LuluZoe" color="white" background="#800080" />
+      <Hello />
+    </>
+  );
 };
 
 export default Home;
