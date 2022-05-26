@@ -68,11 +68,13 @@ const Nav = () => {
 };
 
 const Navigator = styled.div`
-  display: flex;
-  align-items: center;
+  display: none;
+  align-items: space-around;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding: 10px 5px;
   width: 100%;
+  height: 100px;
   background-color: white;
   box-shadow: 0 0 1px lightgrey;
   z-index: 2000;
@@ -82,7 +84,6 @@ const NavHooks = styled.div`
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin: 10px 10px 5px;
 `;
 
 export default Nav;
