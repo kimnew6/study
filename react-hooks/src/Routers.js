@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import Counter from './pages/Counter';
 import Nav from './components/Nav/Nav';
 import UseAxios from './pages/useAxios';
 import UseBeforeLeave from './pages/useBeforeLeave';
@@ -25,6 +26,7 @@ const Routers = () => {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/counter" element={<Counter />} />
         <Route path="/useaxios" element={<UseAxios />} />
         <Route path="/usebeforeLeave" element={<UseBeforeLeave />} />
         <Route path="/useclick" element={<UseClick />} />
